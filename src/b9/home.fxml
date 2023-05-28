@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="b9.HomCotroller">
+   <children>
+      <ListView fx:id="lv" layoutX="16.0" layoutY="104.0" prefHeight="223.0" prefWidth="563.0" />
+      <Text layoutX="165.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student List">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Button layoutX="476.0" layoutY="22.0" mnemonicParsing="false" onAction="#goToForm" prefHeight="40.0" prefWidth="103.0" style="-fx-background-color: blue;" text="Create shortcut" textFill="WHITE" />
+      <Button fx:id="deleteButton" layoutX="511.0" layoutY="339.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="68.0" style="-fx-background-color: red;" text="Xoá " textFill="WHITE" onAction="#handleDeleteButtonClick" />
+
+   </children>
+</Pane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="b9.EditController">
+    <children>
+        <Text layoutX="208.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Student">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <TextField fx:id="txtName" layoutX="71.0" layoutY="75.0" prefHeight="52.0" prefWidth="458.0" promptText="Name" />
+        <TextField fx:id="txtEmail" layoutX="71.0" layoutY="159.0" prefHeight="52.0" prefWidth="458.0" promptText="Email" />
+        <TextField fx:id="txtTel" layoutX="71.0" layoutY="240.0" prefHeight="52.0" prefWidth="458.0" promptText="Telephone" />
+        <Button layoutX="444.0" layoutY="317.0" mnemonicParsing="false" onAction="#submit" prefHeight="44.0" prefWidth="84.0" style="-fx-background-color: blue;" text="Submit" textFill="WHITE" />
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToList" prefHeight="27.0" prefWidth="67.0" style="-fx-background-color: blue;" text="Back" textFill="WHITE" />
+    </children>
+</Pane>
